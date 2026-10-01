@@ -1,0 +1,8 @@
+# Normalise text files; shell scripts and VASP/FHI-aims inputs always use LF,
+# because they run on Linux clusters (bash fails on CRLF: $'\r': command not found).
+* text=auto
+*.sh text eol=lf
+*.py text eol=lf
+*.conf* text eol=lf
+examples/** text eol=lf
+*.cff text eol=lf

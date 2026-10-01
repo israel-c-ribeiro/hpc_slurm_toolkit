@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "HPC Slurm Toolkit: job templates, batch setup, run monitoring and data transfer for DFT campaigns on Slurm clusters"
+type: software
+version: 1.0.0
+date-released: "2026-10-01"
+license: MIT
+repository-code: "https://github.com/israel-c-ribeiro/hpc_slurm_toolkit"
+url: "https://israel-c-ribeiro.github.io/"
+authors:
+  - family-names: Ribeiro
+    given-names: Israel C.
+    orcid: "https://orcid.org/0000-0002-5272-8752"
+    affiliation: "University of Mons (UMONS), Belgium"
+keywords:
+  - Slurm
+  - HPC
+  - VASP
+  - FHI-aims
+  - DFT
+  - computational materials science
+  - workflow

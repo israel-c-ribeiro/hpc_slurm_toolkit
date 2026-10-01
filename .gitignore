@@ -1,0 +1,45 @@
+# ---- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+
+# ---- editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- local configuration with host and user names (keep it private)
+fetch_runs.conf
+
+# ---- output of the quick start / demo
+/runs/
+
+# ---- heavy VASP outputs (never commit them)
+WAVECAR
+WAVEDER
+CHGCAR
+CHG
+LOCPOT
+ELFCAR
+AECCAR*
+PARCHG*
+vasprun.xml
+vaspout.h5
+vaspwave.h5
+core
+core.*
+
+# ---- Slurm logs
+slurm-*.out
+*.out
+*.err

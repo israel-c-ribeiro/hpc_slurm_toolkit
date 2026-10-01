@@ -1,0 +1,7 @@
+# hpc_slurm_toolkit has NO required third-party dependency: every tool runs with
+# the Python standard library (>= 3.9), so it works on a bare cluster login node.
+#
+# Optional:
+#   ase  lets tools/make_job_folders.py read CIF, xyz and other structure formats
+#        (POSCAR, CONTCAR and *.vasp files never need it). Uncomment to install it.
+# ase>=3.22
