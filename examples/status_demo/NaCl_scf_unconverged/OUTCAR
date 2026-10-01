@@ -1,0 +1,45 @@
+ vasp.6.x  SYNTHETIC OUTCAR written by hpc_slurm_toolkit for tests and demos -- not a real calculation
+
+   NELM   =     60;   NELMIN=  2; NELMDL= -5     # of ELM steps
+   EDIFF  = 0.1E-05   stopping-criterion for ELM
+   NSW    =      0    number of steps for IOM
+   IBRION =     -1    ionic relax: 0-MD 1-quasi-New 2-CG
+
+ --------------------------------------- Iteration      1(   1)  ---------------------------------------
+  free energy    TOTEN  =        -6.61234567 eV
+
+ --------------------------------------- Iteration      1(   2)  ---------------------------------------
+  free energy    TOTEN  =        -6.66234567 eV
+
+ --------------------------------------- Iteration      1(   3)  ---------------------------------------
+  free energy    TOTEN  =        -6.67901234 eV
+
+ --------------------------------------- Iteration      1(   4)  ---------------------------------------
+  free energy    TOTEN  =        -6.68734567 eV
+
+ --------------------------------------- Iteration      1(   5)  ---------------------------------------
+  free energy    TOTEN  =        -6.69234567 eV
+
+ --------------------------------------- Iteration      1(   6)  ---------------------------------------
+  free energy    TOTEN  =        -6.69567900 eV
+
+ --------------------------------------- Iteration      1(   7)  ---------------------------------------
+  free energy    TOTEN  =        -6.69805996 eV
+
+ --------------------------------------- Iteration      1(   8)  ---------------------------------------
+  free energy    TOTEN  =        -6.69984567 eV
+
+ ------------------------ aborting loop EDIFF was not reached (unconverged)  ----------------------------
+
+  FREE ENERGIE OF THE ION-ELECTRON SYSTEM (eV)
+  ---------------------------------------------------
+  free  energy   TOTEN  =        -6.71234567 eV
+
+  energy  without entropy=        -6.71234567  energy(sigma->0) =        -6.71234567
+
+
+
+ General timing and accounting informations for this job:
+ ========================================================
+
+                  Total CPU time used (sec):       12.345
