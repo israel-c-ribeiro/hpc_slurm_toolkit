@@ -1,0 +1,24 @@
+# fetch_runs.conf -- configuration of tools/fetch_runs.sh (a bash file, sourced)
+#
+# Copy it to fetch_runs.conf (next to fetch_runs.sh or in the folder you run it
+# from) and fill in your values. fetch_runs.conf is in .gitignore: it holds your
+# user name and host names, keep it out of version control.
+# Environment variables with the same names override these values.
+
+# Login node of the cluster -- or simply a Host alias of ~/.ssh/config
+REMOTE="user@login.cluster.example.org"
+
+# Jump host (gateway) in front of the cluster; leave empty for a direct connection
+# or when ~/.ssh/config already has a ProxyJump line for REMOTE
+GATEWAY="user@gateway.example.org"
+
+# Base folders: <remote_subdir> and <local_subdir> are relative to these
+REMOTE_ROOT="/path/to/runs"
+LOCAL_ROOT="/path/to/local/data"          # E:/data style is fine on Windows
+
+# Extra ssh options (optional), e.g. a specific key: SSH_OPTS="-i $HOME/.ssh/id_ed25519"
+# (write $HOME, not ~: rsync does not expand ~ inside its ssh command)
+SSH_OPTS=""
+
+# auto | 1 | 0 -- skip permissions/owner/group (needed when writing to NTFS)
+NTFS_SAFE="auto"
