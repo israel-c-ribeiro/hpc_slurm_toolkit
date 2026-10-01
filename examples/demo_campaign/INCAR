@@ -1,0 +1,18 @@
+# Demo INCAR template: cell + ionic relaxation (used by make_job_folders.py)
+SYSTEM  = demo
+# ---- electronic
+PREC    = Accurate
+ENCUT   = 450          # eV; for cell relaxations use >= 1.3 x the largest ENMAX of the POTCARs
+EDIFF   = 1E-6
+ISMEAR  = 0 ; SIGMA = 0.05
+LREAL   = .FALSE.
+# ---- ionic: atoms and cell (ISIF = 3)
+IBRION  = 2
+ISIF    = 3
+NSW     = 60
+EDIFFG  = -0.01        # stop when every force is below 0.01 eV/A
+# ---- output: keep the folders light
+LWAVE   = .FALSE.
+LCHARG  = .FALSE.
+# ---- parallelisation (depends on the cluster)
+NCORE   = 8

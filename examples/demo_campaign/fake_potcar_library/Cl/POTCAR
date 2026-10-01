@@ -1,0 +1,7 @@
+  PAW_PBE Cl placeholder
+ PLACEHOLDER, NOT A REAL POTCAR.
+ POTCARs are licensed by VASP Software GmbH and must not be redistributed.
+ It only carries the header line that make_job_folders.py checks.
+ Point --potcar-dir to your own licensed potpaw_PBE folder for real runs.
+   TITEL  = PAW_PBE Cl placeholder
+ End of Dataset
